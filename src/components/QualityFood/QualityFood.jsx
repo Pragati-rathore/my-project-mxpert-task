@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 
 export default function QualityFood() {
   return (
-    <div>
+    <div className="top-section">
       <div className="bg-image">
         <div className="overlay">
           <div

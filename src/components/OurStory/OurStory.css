@@ -22,14 +22,17 @@ hr {
     display: flex;
     align-items: center;
     flex: auto;
+    flex-direction: column;
+
+ 
 }
 
 .sect-1 {
-    width: 50%;
+    width: 100%;
 }
 
 .sect-2 {
-    width: 50%;
+    width: 100%;
 }
 p.sty-para {
     text-align: left;
@@ -49,3 +52,30 @@ p.sty-para {
     height: 100%;
     
 }
+@media screen and (min-width: 768px) {
+    .our-Sty {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .our-Sty .sect-1 {
+      width: 60%;
+      margin-bottom: 0;
+    }
+  
+    .our-Sty .sect-2 {
+      width: 40%;
+    }
+  
+    .sty-para {
+      width: auto;
+    }
+    .sect-1 {
+        width: 50%;
+    }
+    
+    .sect-2 {
+        width: 50%;
+    }
+  }
+  

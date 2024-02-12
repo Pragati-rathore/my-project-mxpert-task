@@ -40,3 +40,36 @@ p.testo-name {
     text-align: left;
     float: left;
 }
+.container-main {
+    width: 100%;
+    padding: 2rem;
+}
+
+.texto-section {
+    padding: 4rem 2rem; /* Adjust padding for smaller screens */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-card {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to next row */
+    justify-content: center;
+    gap: 2rem; /* Adjust gap between items */
+}
+
+.items-testo {
+    width: 300px; /* Set width of items */
+    padding: 1rem; /* Add padding */
+    background-color: #ffffff; /* Set background color */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .texto-section {
+        padding: 4rem 7rem; /* Reset padding for larger screens */
+    }
+}

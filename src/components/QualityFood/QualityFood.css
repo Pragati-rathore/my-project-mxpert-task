@@ -46,3 +46,26 @@ button.menu-btn {
     justify-content: center;
      padding: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .bg-image {
+      height: 449px;
+    }
+  
+    .hd-main {
+      font-size: 3rem; 
+    }
+  
+    .text-main {
+      font-size: 1rem;
+    }
+  
+    .btns-top {
+      flex-direction: column; 
+    }
+  
+    .menu-btn,
+    .button {
+      margin: 0.5rem 0; 
+    }
+  }
