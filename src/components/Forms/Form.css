@@ -1,0 +1,83 @@
+.bg-box{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+
+.bg-img-btm{
+    background-image: url(../../assets/bg-img-2.webp);
+    top: 0;
+    left: 0;
+   position: absolute;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  
+}
+
+
+
+.forms {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 78px;
+}
+.form-box {
+    background: #1f1d1d;
+    width: 300px;
+    height: 500px;
+    border-radius: 3px;
+    padding-top: 2rem;
+}
+h3.forn-hd {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: fangsong;
+    padding-bottom: 2rem;
+}
+p.days {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.time{font-size: 0.8rem;}
+
+.barder{
+    border-top: 1px solid #be672e;
+    border-bottom: 1px solid #be672e;
+}
+h3.hd-drop {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+p.para-drop {
+    font-size: 0.8rem;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.input {
+    background: #000;
+   
+    
+        padding: 3px;
+        margin: 4px;
+    
+}
+
+.sub-btn{
+    padding: 0.2rem 0.8rem;
+    margin: 1rem;
+    border: none;
+    background: #a56d2ae0;
+    font-size: 1rem;
+    color: #fff;
+    width: 181px;
+}

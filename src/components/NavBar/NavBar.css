@@ -1,0 +1,19 @@
+.nav-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+ul.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.nav-hd {
+   
+    font-size: x-large;
+    font-weight: 600;
+}

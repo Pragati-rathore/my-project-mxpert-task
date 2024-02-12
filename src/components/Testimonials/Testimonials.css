@@ -1,0 +1,42 @@
+.texto-section{
+    padding: 4rem 7rem;
+    display: flex;
+    align-items: center;
+    flex: auto;
+    flex-direction: column;
+}
+
+.flex-card {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    padding-top: 4rem;
+}
+
+.starts {
+    display: flex;
+    gap: 7px;
+    color: #dc811c;
+    font-size: 24px;
+}
+.items-testo {
+    display: flex;
+    flex-direction: column;
+
+    gap: 13px;
+}
+h3.title {
+    font-size: x-large;
+    font-weight: 500;
+    font-family: emoji;
+}
+
+p.details {
+    text-align: left;
+    color: gray;
+}
+
+p.testo-name {
+    text-align: left;
+    float: left;
+}

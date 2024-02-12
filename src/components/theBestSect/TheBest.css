@@ -1,0 +1,16 @@
+.best-sect {
+    padding: 4rem 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.best-para{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: gray;
+    width: 29rem;
+    padding-top: 1.5rem;
+    line-height: 1.8rem;
+}

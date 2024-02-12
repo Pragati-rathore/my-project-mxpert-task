@@ -1,0 +1,43 @@
+h3.hd-drop {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+p.para-drop {
+    font-size: 0.8rem;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+input {
+    background: #000;
+    /* border: 1px solid; */
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    padding: 0.2rem 0.8rem;
+    margin: 1rem;
+    border: none;
+    background: #a56d2ae0;
+    font-size: 1rem;
+    color: #fff;
+    width: 181px;
+}
+
+.footer {
+    color: #474242;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+ul.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}

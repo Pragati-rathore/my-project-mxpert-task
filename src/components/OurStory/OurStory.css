@@ -1,0 +1,51 @@
+
+.section-hd {
+    color: grey;
+    font-weight: 600;
+    font-size: larger;
+}
+
+hr {
+    width: 3rem;
+    height: 3px;
+    background: #d62c19bf;
+}
+
+.main-hd {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: fangsong;
+}
+
+.our-Sty {
+    padding: 4rem 7rem;
+    display: flex;
+    align-items: center;
+    flex: auto;
+}
+
+.sect-1 {
+    width: 50%;
+}
+
+.sect-2 {
+    width: 50%;
+}
+p.sty-para {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    color: gray;
+    width: 29rem;
+    padding-top: 1.5rem;
+    line-height: 1.8rem;
+}
+.veg-img {
+    width: 100%;
+    height: 461px;
+}
+.veg-img img {
+    width: 100%;
+    height: 100%;
+    
+}
